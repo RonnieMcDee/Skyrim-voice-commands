@@ -17,7 +17,7 @@ This Python project enables voice-controlled interaction with Skyrim, made for t
 
 ### Step 2: Install Required Packages
 
-Running main.py will automatically install any required packages that are missing. If the necessary packages are not already installed, the script will handle their installation for you.
+Running main.py will automatically install any required packages that are missing.
 
 If you encounter issues installing pyaudio, you may need to manually install a .whl file for your Python version. Visit the PyAudio page (https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) and download the appropriate wheel file.
 
