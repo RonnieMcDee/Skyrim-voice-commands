@@ -6,6 +6,12 @@ This Python project enables voice-controlled interaction with Skyrim, made for t
 
 - Python 3.x
 - Vosk Model: You will need a Vosk model for speech recognition (e.g., vosk-model-small-en-us-0.15).
+-  1. Visit the official Vosk models page: https://alphacephei.com/vosk/models
+-  2. Choose and download the model that suits your needs. Models are available in various languages and sizes. For most purposes, the "small" model will be sufficient.
+-  3. Extract the downloaded model folder.
+-  4. Set the `vosk_model` variable to match the name of the extracted model folder.
+         For example, if the folder is named "vosk-model-small-en-us-0.15", set `vosk_model` to "vosk-model-small-en-us-0.15".
+-  5. Ensure this folder is located in the same directory this `main.py` script.
 
 ## Installation
 
