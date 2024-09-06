@@ -11,10 +11,15 @@ This Python project allows you to control certain actions in Skyrim using voice 
 
 ### Step 1: Clone the Repository
 
-First, clone the repository to your local machine:
+#### Clone
+Clone the repository to your local machine:
 
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
+
+#### Download the .zip
+Press the green 'CODE' button then press download the .zip
+Then extract the files in the directory you want.
 
 ### Step 2: Install Required Packages
 
