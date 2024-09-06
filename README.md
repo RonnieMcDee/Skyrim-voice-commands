@@ -1,22 +1,22 @@
-Skyrim Voice Controller
+# Skyrim Voice Controller
 
 This Python project allows you to control certain actions in Skyrim using voice commands. The program utilizes the Vosk speech recognition library, along with PyAudio, Pyttsx3, and Pynput for voice feedback and keyboard control.
 
-Prerequisites
+## Prerequisites
 
 - Python 3.x
 - Vosk Model: You will need a Vosk model for speech recognition (e.g., vosk-model-small-en-us-0.15).
 
-Installation
+## Installation
 
-Step 1: Clone the Repository
+### Step 1: Clone the Repository
 
 First, clone the repository to your local machine:
 
 git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 
-Step 2: Install Required Packages
+### Step 2: Install Required Packages
 
 Install the necessary Python packages using pip:
 
@@ -26,7 +26,7 @@ If you encounter issues installing pyaudio, you may need to manually install a .
 
 pip install path_to_wheel_file.whl
 
-Step 3: Download the Vosk Model
+### Step 3: Download the Vosk Model
 
 1. Go to the Vosk models page (https://alphacephei.com/vosk/models) and download the appropriate model.
 2. Extract the model into the same directory as this script.
@@ -34,9 +34,9 @@ Step 3: Download the Vosk Model
 
 vosk_model = "vosk-model-small-en-us-0.15"
 
-Usage
+## Usage
 
-Step 1: Open Command Line/Terminal
+### Step 1: Open Command Line/Terminal
 
 On Windows:
 - Press Win + R, type cmd for Command Prompt or powershell for PowerShell, and press Enter.
@@ -47,13 +47,13 @@ On macOS:
 On Linux:
 - Press Ctrl + Alt + T to open the terminal.
 
-Step 2: Change Directory
+### Step 2: Change Directory
 
 Navigate to the directory where the main.py script and Vosk model are located. For example:
 
 cd path_to_your_directory
 
-Step 3: Run the Script
+### Step 3: Run the Script
 
 Once in the correct directory, run the script:
 
@@ -63,7 +63,7 @@ If you're using Python 3, you may need to run it as:
 
 python3 main.py
 
-Step 4: Interact with the Program
+### Step 4: Interact with the Program
 
 Once the program is running, you can use voice commands to trigger the actions. By default, some of the available commands are:
 - "one": Presses F1 and gives voice feedback.
