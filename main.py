@@ -7,6 +7,10 @@ import sys
 import os
 from pynput.keyboard import Key, Controller
 
+def run_setup():
+    subprocess.check_call([sys.executable, 'setup.py'])
+
+run_setup()
 
 # ------------------------------------------------------------------------------------------------------------------
 # ----------------------------------------EDIT THESE LINES----------------------------------------------------------
