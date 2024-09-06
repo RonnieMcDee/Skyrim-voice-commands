@@ -1,6 +1,6 @@
 # Skyrim Voice Controller
 
-This Python project allows you to control certain actions in Skyrim using voice commands. The program utilizes the Vosk speech recognition library, along with PyAudio, Pyttsx3, and Pynput for voice feedback and keyboard control.
+This Python project enables voice-controlled interaction with Skyrim, specifically targeting the LoreRim mod pack, which integrates SKYUI and Stances NG. It leverages the Vosk speech recognition library, along with PyAudio for audio handling, Pyttsx3 for voice feedback, and Pynput for simulating keyboard input.
 
 ## Prerequisites
 
