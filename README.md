@@ -70,7 +70,7 @@ Once the program is running, you can use voice commands to trigger the actions. 
 - "two": Presses F2 and gives voice feedback.
 - "three": Presses F3 and gives voice feedback.
 - "four": Presses F4 and gives voice feedback.
-- "terminus" or "terminals": Stops the program.
+- "terminus": Stops the program.
 
 You can customize these actions by editing the actions and keyword_mappings dictionaries in the main.py script.
 
