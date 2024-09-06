@@ -74,19 +74,19 @@ Once the program is running, you can use voice commands to trigger the actions. 
 
 You can customize these actions by editing the actions and keyword_mappings dictionaries in the main.py script.
 
-Optional: Voice Feedback
+## Optional: Voice Feedback
 
 When the script starts, you'll be prompted to choose whether or not you want voice feedback. You can set the play_voice variable to skip this prompt:
 - Set play_voice = True for voice feedback.
 - Set play_voice = False to disable voice feedback.
 
-Customizing Actions
+### Customizing Actions
 
 To add or modify actions:
 1. Add an entry in the actions dictionary, mapping an action name to a lambda function defining what the action does.
 2. Add a corresponding entry in the keyword_mappings dictionary, mapping the recognized keyword to the action name.
 
-Example:
+#### Example:
 
 actions = {
     "action one": lambda: (keyboard.press(Key.f1), keyboard.release(Key.f1), engine.say("Running Action One.")),
@@ -95,19 +95,16 @@ keyword_mappings = {
     "one": "action one",
 }
 
-Troubleshooting
+## Troubleshooting
 
 - pyaudio installation issues: If you get an error when installing pyaudio, download the appropriate .whl file from here (https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) and install it using pip install path_to_wheel_file.whl.
 
 - Model not found: Ensure that the Vosk model folder (e.g., vosk-model-small-en-us-0.15) is in the same directory as the main.py script.
 
-Contributing
+## Contributing
 
 Feel free to fork the repository, make improvements, and submit pull requests!
 
-License
+## License
 
 This project is licensed under the MIT License.
-
-Warning!
-Do not pass Go, do not collect $200. Unless you're a code wizard, leave the section below alone. Changing this might summon code gremlins or cause unexpected chaos.
