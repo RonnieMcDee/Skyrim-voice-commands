@@ -9,22 +9,15 @@ This Python project enables voice-controlled interaction with Skyrim, made for t
 
 ## Installation
 
-### Step 1: Clone the Repository
+### Step 1: Download the .zip
 
-#### Clone
-Clone the repository to your local machine:
-
-git clone https://github.com/yourusername/your-repo-name.git
-cd your-repo-name
-
-#### Download the .zip
 1. Click the green ‘CODE’ button.
 2. Select ‘Download ZIP’ from the dropdown menu.
 3. Extract the downloaded ZIP file to your desired directory.
 
 ### Step 2: Install Required Packages
 
-Running main.py will automatically install the required packages.
+Running main.py will automatically install any required packages that are missing. If the necessary packages are not already installed, the script will handle their installation for you.
 
 If you encounter issues installing pyaudio, you may need to manually install a .whl file for your Python version. Visit the PyAudio page (https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) and download the appropriate wheel file.
 
