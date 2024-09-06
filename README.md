@@ -71,7 +71,7 @@ Once the program is running, you can use voice commands to trigger the actions. 
 
 You can customize these actions by editing the actions and keyword_mappings dictionaries in the main.py script.
 
-## Optional: Voice Feedback
+### Optional: Voice Feedback
 
 When the script starts, you'll be prompted to choose whether or not you want voice feedback. You can set the play_voice variable to skip this prompt:
 - Set play_voice = True for voice feedback.
