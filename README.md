@@ -18,8 +18,9 @@ git clone https://github.com/yourusername/your-repo-name.git
 cd your-repo-name
 
 #### Download the .zip
-Press the green 'CODE' button then press 'Download ZIP'
-Then extract the files in the directory you want.
+1. Click the green ‘CODE’ button.
+2. Select ‘Download ZIP’ from the dropdown menu.
+3. Extract the downloaded ZIP file to your desired directory.
 
 ### Step 2: Install Required Packages
 
