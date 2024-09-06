@@ -24,9 +24,7 @@ cd your-repo-name
 
 ### Step 2: Install Required Packages
 
-Install the necessary Python packages using pip:
-
-pip install pyttsx3 vosk pyaudio pynput tkinter
+Running main.py will automatically install the required packages.
 
 If you encounter issues installing pyaudio, you may need to manually install a .whl file for your Python version. Visit the PyAudio page (https://www.lfd.uci.edu/~gohlke/pythonlibs/#pyaudio) and download the appropriate wheel file.
 
